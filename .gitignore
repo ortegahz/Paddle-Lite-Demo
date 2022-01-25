@@ -4,3 +4,17 @@ CMakeCache.txt
 CMakeFiles/
 Makefile
 cmake_install.cmake
+
+PaddleLite-armlinux-demo/image_classification_demo/build/
+
+PaddleLite-armlinux-demo/yolo_detection_demo/models/yolov3_mobilenet_v3_for_cpu/
+
+PaddleLite-armlinux-demo/image_classification_demo/models/mobilenet_v1_for_cpu/
+
+PaddleLite-armlinux-demo/Paddle-Lite/include/
+
+PaddleLite-armlinux-demo/Paddle-Lite/libs/armv7hf/
+
+PaddleLite-armlinux-demo/Paddle-Lite/libs/armv8/
+
+PaddleLite-armlinux-demo/object_detection_demo/models/ssd_mobilenet_v1_pascalvoc_for_cpu/

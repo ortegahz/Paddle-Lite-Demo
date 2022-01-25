@@ -252,8 +252,8 @@ int main(int argc, char **argv) {
     cv::Mat input_image = cv::imread(input_image_path, 1);
     cv::Mat output_image = process(input_image, word_labels, predictor);
     cv::imwrite(output_image_path, output_image);
-    cv::imshow("image classification demo", output_image);
-    cv::waitKey(0);
+    // cv::imshow("image classification demo", output_image);
+    // cv::waitKey(0);
   } else {
     cv::VideoCapture cap(-1);
     cap.set(CV_CAP_PROP_FRAME_WIDTH, 640);
